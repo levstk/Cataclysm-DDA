@@ -69,62 +69,6 @@ int alerts = 0;
 
 // Don't change those! They must stay in this specific order!
 // TODO: Remove this enum
-enum computer_action : int {
-    COMPACT_NULL = 0,
-    COMPACT_OPEN,
-    COMPACT_LOCK,
-    COMPACT_UNLOCK,
-    COMPACT_TOLL,
-    COMPACT_SAMPLE,
-    COMPACT_RELEASE,
-    COMPACT_RELEASE_BIONICS,
-    COMPACT_TERMINATE,
-    COMPACT_PORTAL,
-    COMPACT_CASCADE,
-    COMPACT_RESEARCH,
-    COMPACT_MAPS,
-    COMPACT_MAP_SEWER,
-    COMPACT_MAP_SUBWAY,
-    COMPACT_MISS_LAUNCH,
-    COMPACT_MISS_DISARM,
-    COMPACT_LIST_BIONICS,
-    COMPACT_ELEVATOR_ON,
-    COMPACT_AMIGARA_LOG,
-    COMPACT_AMIGARA_START,
-    COMPACT_COMPLETE_DISABLE_EXTERNAL_POWER, // Completes "Disable External Power" mission
-    COMPACT_REPEATER_MOD,       //Converts a terminal in a radio station into a 'repeater', locks terminal and completes mission
-    COMPACT_DOWNLOAD_SOFTWARE,
-    COMPACT_BLOOD_ANAL,
-    COMPACT_DATA_ANAL,
-    COMPACT_DISCONNECT,
-    COMPACT_EMERG_MESS,
-    COMPACT_EMERG_REF_CENTER,   //Points to the refugee center
-    COMPACT_TOWER_UNRESPONSIVE,
-    COMPACT_SR1_MESS,           //Security Reminders for Hazardous Waste Sarcophagus (SRCF)
-    COMPACT_SR2_MESS,
-    COMPACT_SR3_MESS,
-    COMPACT_SR4_MESS,
-    COMPACT_SRCF_1_MESS,
-    COMPACT_SRCF_2_MESS,
-    COMPACT_SRCF_3_MESS,
-    COMPACT_SRCF_SEAL_ORDER,
-    COMPACT_SRCF_SEAL,
-    COMPACT_SRCF_ELEVATOR,
-    COMPACT_OPEN_DISARM,
-    COMPACT_UNLOCK_DISARM,
-    COMPACT_RELEASE_DISARM,
-    COMPACT_IRRADIATOR,
-    COMPACT_GEIGER,
-    COMPACT_CONVEYOR,
-    COMPACT_SHUTTERS,
-    COMPACT_EXTRACT_RAD_SOURCE,
-    COMPACT_DEACTIVATE_SHOCK_VENT,
-    COMPACT_RADIO_ARCHIVE,
-    NUM_COMPUTER_ACTIONS
-};
-
-// Don't change those! They must stay in this specific order!
-// TODO: Remove this enum
 enum computer_failure_type : int {
     COMPFAIL_NULL = 0,
     COMPFAIL_SHUTDOWN,
